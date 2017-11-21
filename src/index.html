@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MultiApp</title>
+  <base href="/">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <app-root></app-root>
+  <div id="aApp">
+    <div ng-controller="aController">
+        {{text}}
+        <hero-detail></hero-detail>
+      </div>
+  </div>
+</body>
+</html>
